@@ -6,7 +6,7 @@ on:
       - opened
 jobs:
   add-issue:
-    uses: "EzzioMoreira//cicd_centralizado/.github/workflows/add_issues_projects.yaml@feat/add-actions-projects"
+    uses: "EzzioMoreira/cicd_centralizado/.github/workflows/add_issues_projects.yaml@feat/add-actions-projects"
     with:
       project_url: https://github.com/users/gomex/projects/2
       github_token: ${{ secrets.ADD_TO_PROJECT_PAT }}
